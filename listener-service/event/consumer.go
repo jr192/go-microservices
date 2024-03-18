@@ -101,8 +101,6 @@ func handlePayload(payload Payload) {
 	case "auth":
 		// authenticate
 
-	// you can have as many cases as you want, as long as you write the logic
-
 	default:
 		err := logEvent(payload)
 		if err != nil {

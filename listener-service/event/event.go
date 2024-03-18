@@ -12,7 +12,7 @@ func declareExchange(ch *amqp.Channel) error {
 		false,        // auto-deleted?
 		false,        // internal?
 		false,        // no-wait?
-		nil,          // arguements?
+		nil,          // arguments?
 	)
 }
 
